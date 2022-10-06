@@ -4,7 +4,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Cisco\\Framework\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -16,7 +16,8 @@
     "minimum-stability": "dev",
     "require": {
         "vlucas/phpdotenv": "5.4.x-dev",
-        "php-di/php-di": "dev-master"
+        "php-di/php-di": "dev-master",
+        "symfony/http-foundation": "5.4.x-dev"
     },
     "require-dev": {
         "symfony/var-dumper": "5.4.x-dev"
