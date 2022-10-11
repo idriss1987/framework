@@ -34,9 +34,9 @@ use App\Z\Routing\RouteInterface;
         /**
          * Cette propriété représente les méthodes de la route
          *
-         * @var string
+         * @var array
          */
-        private string $methods;
+        private array $methods;
 
 
         /**
@@ -96,6 +96,7 @@ use App\Z\Routing\RouteInterface;
          */
         public function hasParams() : bool
         {
+            return false;
 
         }
 
@@ -108,7 +109,7 @@ use App\Z\Routing\RouteInterface;
          */
         public function fetchParams() : array
         {
-            
+            return array();
         }
         
     }

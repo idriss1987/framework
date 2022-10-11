@@ -41,4 +41,7 @@
     // Récupération de la réponse
     $response = $kernel ->handleRequest();
 
+   
+
     // Envoi de la réponse au navigateur
+        $response->send();
